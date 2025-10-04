@@ -12,7 +12,7 @@ const wineData = [
     type: 'Red',
     region: 'Bordeaux, France',
     price: '$520',
-    image: 'assets/wines/margaux.jpg',
+    image: 'https://www.lagunacellar.com/media/catalog/product/m/a/margaux_2018.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=',
     description: 'An exquisite Bordeaux blend offering deep berry flavors, fine tannins, and remarkable elegance.'
   },
   {
@@ -129,4 +129,5 @@ async function fetchWines() {
 }
 
 fetchWines();
+
 */
