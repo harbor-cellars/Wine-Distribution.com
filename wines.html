@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Harbor Cellars Singapore’s curated wine collection — from premium reds and whites to rosé and sparkling wines from around the world.">
+  <title>Our Wines | Harbor Cellars Singapore</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/products.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">Harbor Cellars</a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="wines.html" class="active">Wines</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero wines-hero">
+    <div class="hero-content container">
+      <h1>Our Wine Collection</h1>
+      <p>Discover artisanal wines handpicked from the world’s finest vineyards.</p>
+    </div>
+  </section>
+
+  <!-- Filters Section -->
+  <section class="section filters">
+    <div class="container">
+      <div class="filter-bar">
+        <select id="regionFilter">
+          <option value="all">All Regions</option>
+          <option value="France">France</option>
+          <option value="Italy">Italy</option>
+          <option value="Australia">Australia</option>
+          <option value="Chile">Chile</option>
+          <option value="USA">USA</option>
+        </select>
+
+        <select id="typeFilter">
+          <option value="all">All Types</option>
+          <option value="Red">Red</option>
+          <option value="White">White</option>
+          <option value="Rosé">Rosé</option>
+          <option value="Sparkling">Sparkling</option>
+        </select>
+
+        <input type="text" id="searchWine" placeholder="Search wine name..." />
+      </div>
+    </div>
+  </section>
+
+  <!-- Wines Grid -->
+  <section class="section wines-list">
+    <div class="container">
+      <div id="wineGrid" class="wine-grid">
+        <!-- Wines dynamically injected here by products.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="section featured">
+    <div class="container">
+      <h2>Featured Collections</h2>
+      <div class="featured-grid">
+        <div class="featured-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX_6wk3xgTnxbzz3Wk5QwLMGc7rn_3BoAw7A&s" alt="French Bordeaux">
+          <h3>French Bordeaux</h3>
+          <p>Elegant reds that define balance, structure, and finesse.</p>
+        </div>
+        <div class="featured-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSnYpYKK99EXErMrMaexvaAWMESOCnel3mZg&s" alt="Italian Tuscany">
+          <h3>Italian Tuscany</h3>
+          <p>Classic wines with depth and Mediterranean warmth.</p>
+        </div>
+        <div class="featured-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR58xrhrsBSdIf5FODXwQff0ipkW0e0xnM1qtSkX1bLWrNFJp-U7c9Bjy8IXOUf9sfa-wo&usqp=CAU" alt="Australian Barossa Valley">
+          <h3>Australian Barossa Valley</h3>
+          <p>Bold and fruit-forward — the essence of Australian craft.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="section newsletter">
+    <div class="container">
+      <h2>Join Our Wine Circle</h2>
+      <p>Be the first to hear about exclusive releases and tasting events in Singapore.</p>
+      <form id="newsletterForm">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Harbor Cellars</h4>
+          <p>Curating the world’s finest wines for Singapore since 2015.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2022 Harbor Cellars Singapore. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
