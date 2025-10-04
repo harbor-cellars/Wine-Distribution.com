@@ -21,7 +21,7 @@ const wineData = [
     type: 'White',
     region: 'Marlborough, New Zealand',
     price: '$45',
-    image: 'assets/wines/cloudybay.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTeGldZkGP5DgWUGIxkpwmCwpoHdcs9IO8mH_v9w56Er9CgL4Pn8w0gWHhvs2KtJjb6z0&usqp=CAU',
     description: 'Bright citrus and tropical notes with a crisp, refreshing finish — a New Zealand classic.'
   },
   {
@@ -30,7 +30,7 @@ const wineData = [
     type: 'Rosé',
     region: 'Côtes de Provence, France',
     price: '$39',
-    image: 'assets/wines/whisperingangel.jpg',
+    image: 'https://www.wijnhuisbollaert.be/product/image/medium/10003512_1_3l%20whispering%20angel%20ros%C3%A9%202023_whb.webp',
     description: 'Delicate and dry rosé with aromas of peach, strawberry, and subtle minerality.'
   },
   {
@@ -39,7 +39,7 @@ const wineData = [
     type: 'Sparkling',
     region: 'Champagne, France',
     price: '$290',
-    image: 'assets/wines/domperignon.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxubVQhH46GItCU32US_rIdLcr9YQWEk_WoA&s',
     description: 'Prestigious Champagne showing creamy texture, toasted brioche, and a vibrant acidity.'
   },
   {
@@ -48,7 +48,7 @@ const wineData = [
     type: 'Red',
     region: 'Barossa Valley, Australia',
     price: '$650',
-    image: 'assets/wines/penfolds.jpg',
+    image: 'https://www.penfolds.com/on/demandware.static/-/Sites-twe-master-catalog/default/dw0948714d/images/Penfolds/8034793_Penfolds-Grange-2017-Cork.png',
     description: 'Powerful Shiraz with notes of blackberry, mocha, and spice — a hallmark of Australian winemaking.'
   }
 ];
@@ -131,3 +131,4 @@ async function fetchWines() {
 fetchWines();
 
 */
+
