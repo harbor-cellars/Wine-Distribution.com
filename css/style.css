@@ -90,7 +90,7 @@ nav ul li a:hover {
 /* ------------------ Hero Section ------------------ */
 .hero {
   position: relative;
-  background: url('../assets/hero.jpg') center/cover no-repeat;
+  background: url('https://i.pinimg.com/1200x/f6/40/48/f64048ffe5fa2ac4ea727572bf090c7d.jpg') center/cover no-repeat;
   color: var(--color-light);
   height: 85vh;
   display: flex;
@@ -320,3 +320,4 @@ footer p {
     flex-direction: column;
   }
 }
+
